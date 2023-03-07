@@ -3,5 +3,5 @@
   This is an example site to demonstrate how to use <a
     href="https://kit.svelte.dev/">SvelteKit</a
   >
-  with <a href="https://sveltekit.authjs.dev">SvelteKit Auth</a> for authentication.
+  with <a href="https://sveltekit.authjs.dev">SvelteKit Auth</a> for authentication. Deployed on <a href="https://pages.cloudflare.com/">Cloudflare Pages</a>.
 </p>
