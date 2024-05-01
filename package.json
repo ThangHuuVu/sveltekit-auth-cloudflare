@@ -7,9 +7,9 @@
   },
   "homepage": "https://sveltekit-auth-example.vercel.app",
   "scripts": {
-    "dev": "npx vite dev",
-    "build": "npx vite build",
-    "preview": "npx vite preview",
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview",
     "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
     "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"
   },
