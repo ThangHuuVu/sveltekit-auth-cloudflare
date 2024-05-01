@@ -2,7 +2,7 @@ import { SvelteKitAuth, type SvelteKitAuthConfig } from "@auth/sveltekit";
 import GitHub from "@auth/sveltekit/providers/github";
 // import type { RequestEvent } from "@sveltejs/kit";
 
-export const { handle } = SvelteKitAuth(async (event) => {
+export const { handle } = SvelteKitAuth((event) => {
   const authOptions = {
     providers: [
       GitHub({
